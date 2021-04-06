@@ -1,12 +1,4 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-
-*, ::after, ::before { box-sizing: inherit; }
-
-body {
-    text-rendering: optimizeLegibility;
-}
-
 /*
  BARVY
  svetle sede pozadi      #f5f5f5
@@ -25,3 +17,151 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+html { box-sizing: border-box; }
+
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+.zbozi {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 670px;
+    height: 440px;
+    margin: auto;
+    box-shadow: 5px 5px 20px #959595;
+    border-radius: 30px;
+}
+
+.vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    color: white;
+    border-radius: 30px 0 0 30px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0px
+}
+
+.bota{
+    position: absolute;
+    left: -80px;
+
+}
+
+.cenovka {
+    text-align: right;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: normal;
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    bottom: 30px;
+    left: 170px;
+}
+
+
+.detaily {
+    background-color: white;
+    border-radius: 0 30px 30px 0;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    position: relative;
+    top: -440px;
+    left: 335px;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.produkt {
+    color: #959595;
+    margin: 0;
+    font-weight: normal;
+}
+
+.popis {
+    margin: 0; 
+    padding: 30px 0;
+    border-bottom: 2px solid #06d7c1;
+    font-weight: normal;
+}
+
+.parametr {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+.velikosti {
+    padding: 0;
+}
+
+.velikosti li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 2px solid;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.akce {
+    position: absolute;
+    bottom: 30px;
+}
+
+.tlacitko {
+    text-transform: uppercase;
+    background-color: #f15f42;
+    width: 130px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+
